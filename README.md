@@ -46,7 +46,7 @@ $  npm run happy-path
 To run UnHappy Path
 
 ```bash
-$  npm run Uhappy-path
+$  npm run uhappy-path
 ```
 
 ## Tests results

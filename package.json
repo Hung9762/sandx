@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "happy-path": "playwright test --headed --grep '@happyPath'",
-    "Unhappy-path": "playwright test --headed --grep '@UnhappyPath'"
+    "unhappy-path": "playwright test --headed --grep '@UnhappyPath'"
   },
   "keywords": [],
   "author": "",
