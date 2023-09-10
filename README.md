@@ -18,7 +18,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/)
 Clone the respository
 
 ```sh
-git clone git@github.com:Hung9762/deel-challenge.git
+git clone git@github.com:Hung9762/sandx-challenge.git
 ```
 
 Open the repository with VS code and go to terminal
