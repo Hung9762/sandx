@@ -1,9 +1,11 @@
-import { Locator, Page } from '@playwright/test';
+import { BrowserContext, Locator, Page } from '@playwright/test';
 
 export class BaseUI {
   protected page: Page;
-  constructor(page: Page) {
+  protected context: BrowserContext;
+  constructor(page: Page, context: BrowserContext) {
     this.page = page;
+    this.context = context;
   }
 
   protected async goToURL(url: string) {
@@ -24,5 +26,9 @@ export class BaseUI {
 
   protected async getElementText(element: Locator) {
     return await element.textContent();
+  }
+
+  protected async openInNewTap(element: Locator) {
+    await element.click({ button: 'middle' });
   }
 }

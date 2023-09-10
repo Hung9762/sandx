@@ -1,6 +1,6 @@
-# Deel-QA-Automation-Challenge
+# Sandbx-QA-Automation-Challenge
 
-This is my resolution of the Deel Automation Challenge using Typescript & Playwright
+This is my resolution of the Sandbx Automation Challenge using Typescript & Playwright
 
 ## Requirements
 
@@ -45,10 +45,6 @@ $  npm run happy-path
 
 To run UnHappy Path
 
-```bash
-$  npm run uhappy-path
-```
-
 ## Tests results
 
 - Afte a run is finish, a command to open the report should be printed in the terminal
@@ -59,15 +55,15 @@ $  npx playwright show-report
 
 ## HTML Report Structure
 
-- The report is divided in two global suites, the suite marked in red is the UI Test cases
+- The report contains the report of the happy path
 
-![Report structure](imgs/ui_test.png)
+![Report structure](imgs/test.png)
 
-- Select one test case, to display the full test steps per test case
+- Select test to display the full test steps per test case
 
-![Folder-Structure](imgs/test_steps.png)
+![Folder-Structure](imgs/test-steps.png)
 
-- A video is available per test case, the video can be access by tapping the icon
+- A video is available, the video can be access by tapping the icon
 
 ![Folder-Structure](imgs/trace.png)
 

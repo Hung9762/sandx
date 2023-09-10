@@ -10,6 +10,4 @@ test.describe('API testcase', () => {
     api = new API(request);
     token = await api.getUserInformation(user);
   });
-
-  test('Display User token', async () => {});
 });
